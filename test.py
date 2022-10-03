@@ -1,11 +1,11 @@
 def findMax(a, b, c):
     if a > b :
-        biggest = a
+        big = a
     else :
-        biggest = b
+        big = b
         
         if c > biggest :
-            biggest = c
+            big = c
         return biggest
     
 a = int(input("첫번째 숫자 입력: "))
